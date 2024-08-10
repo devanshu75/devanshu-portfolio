@@ -52,7 +52,7 @@ body {
 }
 
 section {
-  padding: 5em 2em;
+  padding: 2em 2em;
 }
 
 img {
@@ -301,6 +301,7 @@ header {
   /* background-blend-mode: multiply; */
   color: var(--clr-light);
   text-align: center;
+  background-attachment: fixed;
 }
 
 .section__title--services {
@@ -350,15 +351,15 @@ header {
 }
 
 @media (min-width: 600px) {
-  .about-me {
+  /* .about-me {
     display: grid;
     grid-template-columns: 1fr 200px;
     grid-template-areas:
-      "title img"
-      "subtitle img"
-      "text img";
+      "title title"
+      "subtitle subtitle"
+      "text text";
     grid-column-gap: 2em;
-  }
+  } */
 
   .section__title--about {
     grid-area: title;
